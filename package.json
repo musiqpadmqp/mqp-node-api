@@ -1,5 +1,5 @@
 {
-  "name": "mqp-api",
+  "name": "musiqpadmqp-api",
   "version": "0.3.5",
   "main": "src/app.js",
   "keywords": [
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/musiqpad/mqp-node-api.git"
+    "url": "git+https://github.com/musiqpadmqp/mqp-node-api.git"
   },
-  "author": "musiqpad Team <support@musiqpad.com>",
+  "author": "musiqpad Team <cik3@pm.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/musiqpad/mqp-node-api/issues"
+    "url": "https://github.com/musiqpadmqp/mqp-node-api/issues"
   },
-  "homepage": "https://github.com/musiqpad/mqp-node-api#readme",
+  "homepage": "https://github.com/musiqpadmqp/mqp-node-api#readme",
   "dependencies": {
     "bluebird": "^3.3.4",
     "sha.js": "^2.4.5",
