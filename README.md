@@ -9,13 +9,13 @@ API for creating musiqpad bots
 ## NodeJS
 
 ```bash
-npm install mqp-api -S
+npm install musiqpadmqp-api -S
 ```
 
 ## Browser
 
 ```html
-<script src="https://cdn.musiqpad.com/js/mqp-api.min.js"></script>
+<script src="https://musiqpadmqp.github.io/js/mqp-api.min.js"></script>
 ```
 
 # Setting up your own bot
