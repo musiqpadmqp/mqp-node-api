@@ -29,7 +29,7 @@ Tip: Change your bot permissions in serverconfig.js to have the same as a co-own
 The first thing you'll need to do is to create a new Bot. You can get these values by typing `config` into the DevTools console on your Pad (if the serverhost is empty, use your domain).
 
 ```javascript
-const mqpAPI = require('mqp-api'); // Ignore this line if you are using the browser version
+const mqpAPI = require('musiqpadmqp-api'); // Ignore this line if you are using the browser version
 
 var bot = new mqpAPI({
   autoreconnect: true,     // Enabled by default, for other options check the wiki
