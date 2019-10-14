@@ -62,7 +62,7 @@ var app = function (args) {
   this.getPadBySlug = function (slug) {
     logger.log('debug', "Getting pad by Slug: " + slug);
     return new Promise(function (resolve, reject) {
-      https.get('https://api.musiqpad.com/pad/list?apikey=' + apiKey, function (res) {
+      https.get('http://mqpapi.glitch.me/pad/list', function (res) {
         var output = '';
         res.setEncoding('utf8');
         res.on('data', function (chunk) {
